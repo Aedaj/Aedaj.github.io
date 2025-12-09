@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d08576ad95fd4d0c2000796a88a467df {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d08576ad95fd4d0c2000796a88a467df" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d08576ad95fd4d0c2000796a88a467df = L.map(
+                "map_d08576ad95fd4d0c2000796a88a467df",
+                {
+                    center: [35.5, 139.5],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_017b5f09153273e7cdcabeaa6723c9a3 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_017b5f09153273e7cdcabeaa6723c9a3.addTo(map_d08576ad95fd4d0c2000796a88a467df);
+        
+    
+            var feature_group_46221023cdd73412a59a6444191cee93 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_1d7bd78b041188e02b7cfdb19e2860d3 = L.marker(
+                [34.85841000000005, 136.80541000000005],
+                {
+}
+            ).addTo(feature_group_46221023cdd73412a59a6444191cee93);
+        
+    
+        var popup_9050862bbed2d48892c952c741ccaac6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_001b5359261f5dc118322b4e3e3b0811 = $(`<div id="html_001b5359261f5dc118322b4e3e3b0811" style="width: 100.0%; height: 100.0%;">Day 1 - Nagoya<br>Chubu Centrair International Airport, Nagoya<br>21:00</div>`)[0];
+                popup_9050862bbed2d48892c952c741ccaac6.setContent(html_001b5359261f5dc118322b4e3e3b0811);
+            
+        
+
+        marker_1d7bd78b041188e02b7cfdb19e2860d3.bindPopup(popup_9050862bbed2d48892c952c741ccaac6)
+        ;
+
+        
+    
+    
+            marker_1d7bd78b041188e02b7cfdb19e2860d3.bindTooltip(
+                `<div>
+                     Chubu Centrair International Airport, Nagoya
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5acc36b08860b0e28a2ece985cfa71d0 = L.marker(
+                [34.86211239586683, 136.8181775216098],
+                {
+}
+            ).addTo(feature_group_46221023cdd73412a59a6444191cee93);
+        
+    
+        var popup_4637deedb8c95175c8b9b63c505ecfbd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bfda282e55b5ff3e1e31a5c4dadd7779 = $(`<div id="html_bfda282e55b5ff3e1e31a5c4dadd7779" style="width: 100.0%; height: 100.0%;">Day 1 - Nagoya<br>4 Chome-2-5 Centrair, Tokoname, Aichi 479-0881<br>23:00</div>`)[0];
+                popup_4637deedb8c95175c8b9b63c505ecfbd.setContent(html_bfda282e55b5ff3e1e31a5c4dadd7779);
+            
+        
+
+        marker_5acc36b08860b0e28a2ece985cfa71d0.bindPopup(popup_4637deedb8c95175c8b9b63c505ecfbd)
+        ;
+
+        
+    
+    
+            marker_5acc36b08860b0e28a2ece985cfa71d0.bindTooltip(
+                `<div>
+                     4 Chome-2-5 Centrair, Tokoname, Aichi 479-0881
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_59147fcb05ce70e322bbb68c02cdc863 = L.polyline(
+                [[34.85841000000005, 136.80541000000005], [34.86211239586683, 136.8181775216098]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_46221023cdd73412a59a6444191cee93);
+        
+    
+            feature_group_46221023cdd73412a59a6444191cee93.addTo(map_d08576ad95fd4d0c2000796a88a467df);
+        
+    
+            var feature_group_2fda42b25d3eda5b8dc071de531aca3c = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_261cd60ad1e03075fbedccf3aadc0a73 = L.marker(
+                [35.170680565000055, 136.8818832600001],
+                {
+}
+            ).addTo(feature_group_2fda42b25d3eda5b8dc071de531aca3c);
+        
+    
+        var popup_20e1f35e1caa15d2e179825882db7d08 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c46667877e8b771925479a6069130189 = $(`<div id="html_c46667877e8b771925479a6069130189" style="width: 100.0%; height: 100.0%;">Day 2 - Tokyo<br>Nagoya Station<br>12:00</div>`)[0];
+                popup_20e1f35e1caa15d2e179825882db7d08.setContent(html_c46667877e8b771925479a6069130189);
+            
+        
+
+        marker_261cd60ad1e03075fbedccf3aadc0a73.bindPopup(popup_20e1f35e1caa15d2e179825882db7d08)
+        ;
+
+        
+    
+    
+            marker_261cd60ad1e03075fbedccf3aadc0a73.bindTooltip(
+                `<div>
+                     Nagoya Station
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e415584f685cbae749fc3305bf1cd92f = L.marker(
+                [35.68118461600005, 139.76721144700002],
+                {
+}
+            ).addTo(feature_group_2fda42b25d3eda5b8dc071de531aca3c);
+        
+    
+        var popup_0699f06cac9711d3105e31e11c70ff7a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c881b5346aa93ac6ef61dc92a4da6ba7 = $(`<div id="html_c881b5346aa93ac6ef61dc92a4da6ba7" style="width: 100.0%; height: 100.0%;">Day 2 - Tokyo<br>Tokyo Station, Tokyo<br>13:30</div>`)[0];
+                popup_0699f06cac9711d3105e31e11c70ff7a.setContent(html_c881b5346aa93ac6ef61dc92a4da6ba7);
+            
+        
+
+        marker_e415584f685cbae749fc3305bf1cd92f.bindPopup(popup_0699f06cac9711d3105e31e11c70ff7a)
+        ;
+
+        
+    
+    
+            marker_e415584f685cbae749fc3305bf1cd92f.bindTooltip(
+                `<div>
+                     Tokyo Station, Tokyo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_23a80cbccb8d710964afabaa2af3a371 = L.marker(
+                [35.646447489000025, 139.71961105900004],
+                {
+}
+            ).addTo(feature_group_2fda42b25d3eda5b8dc071de531aca3c);
+        
+    
+        var popup_f2c60626d4789343ad0d9b62da37a40c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_388dd49f42887f16786fcd1d66f734e7 = $(`<div id="html_388dd49f42887f16786fcd1d66f734e7" style="width: 100.0%; height: 100.0%;">Day 2 - Tokyo<br>Shibuya Apartment<br></div>`)[0];
+                popup_f2c60626d4789343ad0d9b62da37a40c.setContent(html_388dd49f42887f16786fcd1d66f734e7);
+            
+        
+
+        marker_23a80cbccb8d710964afabaa2af3a371.bindPopup(popup_f2c60626d4789343ad0d9b62da37a40c)
+        ;
+
+        
+    
+    
+            marker_23a80cbccb8d710964afabaa2af3a371.bindTooltip(
+                `<div>
+                     Shibuya Apartment
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_680b71fc84121988f07f9f21d0bb1ee1 = L.polyline(
+                [[35.170680565000055, 136.8818832600001], [35.68118461600005, 139.76721144700002], [35.646447489000025, 139.71961105900004]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_2fda42b25d3eda5b8dc071de531aca3c);
+        
+    
+            feature_group_2fda42b25d3eda5b8dc071de531aca3c.addTo(map_d08576ad95fd4d0c2000796a88a467df);
+        
+    
+            var layer_control_417ff05ec68069aac18fd5399615f48f_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_017b5f09153273e7cdcabeaa6723c9a3,
+                },
+                overlays :  {
+                    "Day 1 - Nagoya" : feature_group_46221023cdd73412a59a6444191cee93,
+                    "Day 2 - Tokyo" : feature_group_2fda42b25d3eda5b8dc071de531aca3c,
+                },
+            };
+            let layer_control_417ff05ec68069aac18fd5399615f48f = L.control.layers(
+                layer_control_417ff05ec68069aac18fd5399615f48f_layers.base_layers,
+                layer_control_417ff05ec68069aac18fd5399615f48f_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_d08576ad95fd4d0c2000796a88a467df);
+
+        
+</script>
+</html>
